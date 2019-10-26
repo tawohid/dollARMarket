@@ -1,0 +1,105 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Maple_Gold
+Ka 0.000000 0.000000 0.000000
+Kd 0.847059 0.776471 0.674510
+Ks 0.330000 0.330000 0.330000
+
+newmtl Antenna_Band__Maple_Gold_
+Ka 0.000000 0.000000 0.000000
+Kd 0.752941 0.686275 0.596078
+Ks 0.330000 0.330000 0.330000
+
+newmtl Corning_Gorilla_Glass_5__Gold_
+Ka 0.000000 0.000000 0.000000
+Kd 0.886275 0.835294 0.729412
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Corning_Gorilla_Glass_5__Gold_.jpg
+
+newmtl Logo__Silver_
+Ka 0.000000 0.000000 0.000000
+Kd 0.847059 0.847059 0.847059
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Logo__Silver_.jpg
+
+newmtl Corning_Gorilla_Glass_5__Black__1
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl _2
+Ka 0.000000 0.000000 0.000000
+Kd 0.039216 0.321569 0.996078
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/_2.png
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Speaker__Mic
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Speaker__Mic.png
+
+newmtl IR_LED
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.027451
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/IR_LED.jpg
+
+newmtl Corning_Gorilla_Glass_5__Clear_
+Ka 0.000000 0.000000 0.000000
+Kd 0.207843 0.207843 0.207843
+Ks 0.330000 0.330000 0.330000
+d 0.150000
+
+newmtl Receiver
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Receiver.png
+
+newmtl Camera_Ring
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Camera_Ring.jpg
+
+newmtl Notification_LED__Proximity__Ambient_Light_Sensors
+Ka 0.000000 0.000000 0.000000
+Kd 0.019608 0.019608 0.019608
+Ks 0.330000 0.330000 0.330000
+
+newmtl M_8_MP_Front_Camera
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.047059
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/M_8_MP_Front_Camera.jpg
+
+newmtl Camera_Flash_1
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Camera_Flash_2
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.866667 0.333333
+Ks 0.330000 0.330000 0.330000
+
+newmtl M_12_MP_Rear_Camera
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.027451
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/M_12_MP_Rear_Camera.jpg
+
+newmtl Iris_Camera
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.019608
+Ks 0.330000 0.330000 0.330000
+map_Kd GalaxyS8MapleGold/Iris_Camera.jpg
+
