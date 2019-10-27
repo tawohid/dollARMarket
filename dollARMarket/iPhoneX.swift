@@ -27,8 +27,8 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         sceneView.autoenablesDefaultLighting = true
         
         
-        let phoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseless.scn")
-        let phoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaselessR.scn")
+        let phoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseless.scn")
+        let phoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaselessR.scn")
         
         phoneNode = phoneScene?.rootNode
         phoneRNode = phoneRScene?.rootNode
@@ -40,36 +40,36 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         phoneColor = 0
         if(caseColor == 0)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseless.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaselessR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseless.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaselessR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 1)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseBlue.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseBlueR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseBlue.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseBlueR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 2)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseGreen.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseGreenR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseGreen.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseGreenR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 3)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCasePink.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCasePinkR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCasePink.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCasePinkR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 4)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseRed.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseRedR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseRed.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseRedR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -81,36 +81,36 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         phoneColor = 1
         if(caseColor == 0)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseless.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaselessR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseless.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaselessR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 1)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseBlue.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseBlueR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseBlue.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseBlueR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 2)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseGreen.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseGreenR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseGreen.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseGreenR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 3)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCasePink.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCasePinkR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCasePink.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCasePinkR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         if(caseColor == 4)
         {
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseRed.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseRedR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseRed.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseRedR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -122,14 +122,14 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         resetScene()
         caseColor = 0
         if(phoneColor == 0){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseless.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaselessR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseless.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaselessR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         else if(phoneColor == 1){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseless.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaselessR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseless.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaselessR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -139,14 +139,14 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         resetScene()
         caseColor = 1
         if(phoneColor == 0){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseBlue.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseBlueR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseBlue.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseBlueR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         else if(phoneColor == 1){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseBlue.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseBlueR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseBlue.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseBlueR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -156,14 +156,14 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         resetScene()
         caseColor = 2
         if(phoneColor == 0){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseGreen.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseGreenR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseGreen.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseGreenR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         else if(phoneColor == 1){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseGreen.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseGreenR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseGreen.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseGreenR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -173,14 +173,14 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         resetScene()
         caseColor = 3
         if(phoneColor == 0){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCasePink.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCasePinkR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCasePink.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCasePinkR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         else if(phoneColor == 1){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCasePink.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCasePinkR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCasePink.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCasePinkR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
@@ -190,14 +190,14 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         resetScene()
         caseColor = 4
         if(phoneColor == 0){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseRed.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLBlackCaseRedR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseRed.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSilverCaseRedR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
         else if(phoneColor == 1){
-            let newPhoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseRed.scn")
-            let newPhoneRScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseRedR.scn")
+            let newPhoneScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseRed.scn")
+            let newPhoneRScene = SCNScene(named: "art.scnassets/iPhoneXSpaceGrayCaseRedR.scn")
             phoneNode = newPhoneScene?.rootNode
             phoneRNode = newPhoneRScene?.rootNode
         }
