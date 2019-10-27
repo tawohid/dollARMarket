@@ -10,7 +10,7 @@ import SceneKit
 import ARKit
 
 
-class iPhoneX: UIViewController, ARSCNViewDelegate {
+class Pixel3XL: UIViewController, ARSCNViewDelegate {
     
     @IBOutlet var sceneView: ARSCNView!
   
@@ -186,6 +186,7 @@ class iPhoneX: UIViewController, ARSCNViewDelegate {
         }
     }
     
+   
     @IBAction func red(_ sender: Any) {
         resetScene()
         caseColor = 4
