@@ -15,7 +15,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.delegate = self
         sceneView.autoenablesDefaultLighting = true
         
-        let phoneScene = SCNScene(named: "art.scnassets/iPhone6PlusSpaceGray.scn")
+        let phoneScene = SCNScene(named: "art.scnassets/Pixel3XLWhiteCaseRed.scn")
         
         phoneNode = phoneScene?.rootNode
     }
