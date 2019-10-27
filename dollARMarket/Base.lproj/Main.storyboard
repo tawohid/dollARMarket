@@ -20,18 +20,26 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
                                 <rect key="frame" x="0.0" y="-11" width="414" height="873"/>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFk-1X-76W">
-                                <rect key="frame" x="44" y="147" width="37" height="30"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iPhone 6 Plus Combos" translatesAutoresizingMaskIntoConstraints="NO" id="qHD-vJ-lq7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="silver"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFk-1X-76W">
+                                <rect key="frame" x="25" y="154" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="silver">
+                                    <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="silver:" destination="BV1-FR-VrT" eventType="touchUpInside" id="4FT-hG-e8Y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cf1-22-4pi">
-                                <rect key="frame" x="25" y="185" width="76" height="30"/>
+                                <rect key="frame" x="25" y="218" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="space gray"/>
+                                <state key="normal" title="space gray">
+                                    <color key="titleColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="spacegray:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Zw1-BT-prp"/>
                                 </connections>
@@ -53,6 +61,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="618.84057971014499" y="-722.54464285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="w9w-4Q-SPB">
+            <objects>
+                <viewController id="maX-nU-1s3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5hW-Y0-WW8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ouQ-FZ-V3t"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gue-Ql-1de" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1286" y="-730"/>
         </scene>
         <!--Home Controller-->
         <scene sceneID="L79-kC-V5c">
@@ -151,9 +174,6 @@
                                 <rect key="frame" x="356" y="296" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Red"/>
-                                <connections>
-                                    <action selector="red:" destination="6jH-BF-6kW" eventType="touchUpInside" id="O8a-XM-qJO"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkr-cK-0Hd">
                                 <rect key="frame" x="350" y="216" width="42" height="30"/>
@@ -264,4 +284,7 @@
             <point key="canvasLocation" x="2005.7971014492755" y="18.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="iPhone 6 Plus Combos" width="414" height="896"/>
+    </resources>
 </document>

@@ -13,10 +13,10 @@
 		2FCC52502364E96000B17582 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC524F2364E96000B17582 /* art.scnassets */; };
 		2FCC52522364E96000B17582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC52512364E96000B17582 /* ViewController.swift */; };
 		2FCC52552364E96000B17582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC52532364E96000B17582 /* Main.storyboard */; };
-		2FCC52572364E96200B17582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC52562364E96200B17582 /* Assets.xcassets */; };
 		2FCC525A2364E96200B17582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC52582364E96200B17582 /* LaunchScreen.storyboard */; };
 		2FDC710623658B5F00E346E2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC710523658B5F00E346E2 /* HomeController.swift */; };
 		2FDC710823658D9C00E346E2 /* GalaxyS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC710723658D9C00E346E2 /* GalaxyS10.swift */; };
+		2FEA224E2365ABA7004AEED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA224D2365ABA7004AEED0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +27,11 @@
 		2FCC524F2364E96000B17582 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2FCC52512364E96000B17582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FCC52542364E96000B17582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2FCC52562364E96200B17582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCC52592364E96200B17582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCC525B2364E96200B17582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FDC710523658B5F00E346E2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		2FDC710723658D9C00E346E2 /* GalaxyS10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyS10.swift; sourceTree = "<group>"; };
+		2FEA224D2365ABA7004AEED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +72,9 @@
 				2FDC710723658D9C00E346E2 /* GalaxyS10.swift */,
 				2F63732F2365928700ACE41A /* GalaxyS8.swift */,
 				2FDC710523658B5F00E346E2 /* HomeController.swift */,
-				2FCC52562364E96200B17582 /* Assets.xcassets */,
 				2FCC52582364E96200B17582 /* LaunchScreen.storyboard */,
 				2FCC525B2364E96200B17582 /* Info.plist */,
+				2FEA224D2365ABA7004AEED0 /* Assets.xcassets */,
 			);
 			path = dollARMarket;
 			sourceTree = "<group>";
@@ -139,7 +139,7 @@
 			files = (
 				2FCC52502364E96000B17582 /* art.scnassets in Resources */,
 				2FCC525A2364E96200B17582 /* LaunchScreen.storyboard in Resources */,
-				2FCC52572364E96200B17582 /* Assets.xcassets in Resources */,
+				2FEA224E2365ABA7004AEED0 /* Assets.xcassets in Resources */,
 				2FCC52552364E96000B17582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
