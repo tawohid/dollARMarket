@@ -16,7 +16,7 @@
 		2FCC525A2364E96200B17582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC52582364E96200B17582 /* LaunchScreen.storyboard */; };
 		2FDC710623658B5F00E346E2 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC710523658B5F00E346E2 /* HomeController.swift */; };
 		2FDC710823658D9C00E346E2 /* GalaxyS10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC710723658D9C00E346E2 /* GalaxyS10.swift */; };
-		2FE74A132365BC870051127D /* iPhoneX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE74A122365BC860051127D /* iPhoneX.swift */; };
+		2FE74A152365BE130051127D /* iPhoneX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE74A142365BE130051127D /* iPhoneX.swift */; };
 		2FEA224E2365ABA7004AEED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEA224D2365ABA7004AEED0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +32,7 @@
 		2FCC525B2364E96200B17582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FDC710523658B5F00E346E2 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		2FDC710723658D9C00E346E2 /* GalaxyS10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyS10.swift; sourceTree = "<group>"; };
-		2FE74A122365BC860051127D /* iPhoneX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iPhoneX.swift; path = dollARMarket/iPhoneX.swift; sourceTree = "<group>"; };
+		2FE74A142365BE130051127D /* iPhoneX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = iPhoneX.swift; path = ../../../.Trash/dollARMarket/dollARMarket/iPhoneX.swift; sourceTree = "<group>"; };
 		2FEA224D2365ABA7004AEED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +72,7 @@
 				2FCC524F2364E96000B17582 /* art.scnassets */,
 				2FCC52532364E96000B17582 /* Main.storyboard */,
 				2F63733123659C8200ACE41A /* Pixel3XL.swift */,
+				2FE74A142365BE130051127D /* iPhoneX.swift */,
 				2FDC710723658D9C00E346E2 /* GalaxyS10.swift */,
 				2F63732F2365928700ACE41A /* GalaxyS8.swift */,
 				2FDC710523658B5F00E346E2 /* HomeController.swift */,
@@ -157,7 +158,7 @@
 				2F63733223659C8200ACE41A /* Pixel3XL.swift in Sources */,
 				2FDC710823658D9C00E346E2 /* GalaxyS10.swift in Sources */,
 				2FCC52522364E96000B17582 /* ViewController.swift in Sources */,
-				2FE74A132365BC870051127D /* iPhoneX.swift in Sources */,
+				2FE74A152365BE130051127D /* iPhoneX.swift in Sources */,
 				2FCC524E2364E96000B17582 /* AppDelegate.swift in Sources */,
 				2FDC710623658B5F00E346E2 /* HomeController.swift in Sources */,
 				2F6373302365928700ACE41A /* GalaxyS8.swift in Sources */,
