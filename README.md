@@ -17,17 +17,25 @@ E-Commerce in the telecommunications industry has become increasingly more effic
 
 ## How we built it
 -Communicated with retail employees to discern issues that directly affect both the customers and Metro by T-Mobile as a whole
+
 -Brainstormed a practical and productive xR solution for consumer experience in the T-Mobile store
+
 -Produced a proof of concept using a 3D model of a phone and displaying it on a dollar bill (the marker) in augmented reality
+
 -Figured out how to map the 3D model to have the correct scale compared to the dollar bill, ensuring that the user would see an accurate depiction of the phone’s dimensions at all angles and distances.
+
 -Mapped multiple phones and cases of different colors. 
+
 -Drew out the pages of the user interface using Sketch, including functionalities such as the viewing home page, browsing through different phones, and viewing different phone colors and case colors through augmented reality.
+
 -Connected the front-end and back-end in Swift by using the drawn pages of the user interface and applying them to the Main.storyboard file
 
 
 ## Challenges we ran into
 -Incompatible AR SDKs
+
 -Learning how to use AR with Swift
+
 -Collaborating over Windows & Mac platforms
 
 ## Accomplishments that we're proud of
