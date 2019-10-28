@@ -1,7 +1,7 @@
 # dollARMarket
-ARKit Application for T-Mobile's Hacktober 2019.
+ARKit Application for T-Mobile's Hacktober 2019 
 
-Won 2nd Place + $2,000 Dollars!
+Winner of 2nd Place Prize!
 
 by Khalid Hossain, Supratik Pochampally, Cady Baltz, Christina Abraham
 
