@@ -18,27 +18,27 @@ When approaching the theme of the hackathon, we discussed the possibility of dev
 E-Commerce in the telecommunications industry has become increasingly more efficient through technology. With the ability to view the entire markup of the product you would like to purchase before actually purchasing, online shopping has become increasingly more of a replacement than a supplement of in-store shopping. However, e-commerce is still not fool-proof, with over 30% off online purchases sent back for returns as opposed to the 9% return rate of in-store purchases. Furthermore, regardless of the plethora of information found online about the product, more than a fifth of all online returns resulting from parities in how the product seems online as opposed to the consumer’s in-person experience with the product. To solve this, dollAR serves to allow the user to visualize their cell phone in their hands before completing the purchase online, thereby simulating the in-store experience of holding your phone in the comfort of your own home. 
 
 ## How we built it
--Communicated with retail employees to discern issues that directly affect both the customers and Metro by T-Mobile as a whole
+- Communicated with retail employees to discern issues that directly affect both the customers and Metro by T-Mobile as a whole
 
--Brainstormed a practical and productive xR solution for consumer experience in the T-Mobile store
+- Brainstormed a practical and productive xR solution for consumer experience in the T-Mobile store
 
--Produced a proof of concept using a 3D model of a phone and displaying it on a dollar bill (the marker) in augmented reality
+- Produced a proof of concept using a 3D model of a phone and displaying it on a dollar bill (the marker) in augmented reality
 
--Figured out how to map the 3D model to have the correct scale compared to the dollar bill, ensuring that the user would see an accurate depiction of the phone’s dimensions at all angles and distances.
+- Figured out how to map the 3D model to have the correct scale compared to the dollar bill, ensuring that the user would see an accurate depiction of the phone’s dimensions at all angles and distances.
 
--Mapped multiple phones and cases of different colors. 
+- Mapped multiple phones and cases of different colors. 
 
--Drew out the pages of the user interface using Sketch, including functionalities such as the viewing home page, browsing through different phones, and viewing different phone colors and case colors through augmented reality.
+- Drew out the pages of the user interface using Sketch, including functionalities such as the viewing home page, browsing through different phones, and viewing different phone colors and case colors through augmented reality.
 
--Connected the front-end and back-end in Swift by using the drawn pages of the user interface and applying them to the Main.storyboard file
+- Connected the front-end and back-end in Swift by using the drawn pages of the user interface and applying them to the Main.storyboard file
 
 
 ## Challenges we ran into
--Incompatible AR SDKs
+- Incompatible AR SDKs
 
--Learning how to use AR with Swift
+- Learning how to use AR with Swift
 
--Collaborating over Windows & Mac platforms
+- Collaborating over Windows & Mac platforms
 
 ## Accomplishments that we're proud of
 One of our major accomplishments was being able to build a proof of concept very early on through the process, as we were able to know for sure that we weren’t pursuing an unrealistic goal. By doing so, we had more time to focus on the implementation of the concept into a completely user-friendly experience.
