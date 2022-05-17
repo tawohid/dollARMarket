@@ -6,6 +6,7 @@ Winner of 2nd Place Prize of $2,000
 by Khalid Hossain, Supratik Pochampally, Cady Baltz, Christina Abraham
 
 Check it out the demo here: https://devpost.com/software/dollar
+
 [Check out our featured news article!](https://cs.utdallas.edu/student-hackathon-experience-supratik-pochampally-and-his-team-win-2nd-place-at-t-mobile-hacktober-hackathon/)
 
 ___
