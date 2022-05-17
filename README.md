@@ -7,6 +7,9 @@ by Khalid Hossain, Supratik Pochampally, Cady Baltz, Christina Abraham
 
 Check it out the demo here: https://devpost.com/software/dollar
 
+<img width="922" alt="image" src="https://user-images.githubusercontent.com/20322590/168865096-bb431b1c-51c8-43c6-b4a9-e2801ad4fab4.png">
+
+
 [Check out our featured news article!](https://cs.utdallas.edu/student-hackathon-experience-supratik-pochampally-and-his-team-win-2nd-place-at-t-mobile-hacktober-hackathon/)
 
 ___
